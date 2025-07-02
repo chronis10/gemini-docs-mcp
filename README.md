@@ -15,9 +15,10 @@ Manage Google Docs using a FastMCP API server for Gemini-CLI. Supports listing d
 
 ```bash
 pip install uv
-cd gemini-docs-mcp
+cd gemini-tasks-mcp
 uv venv
-uv pip install
+source .venv/bin/activate
+uv run main.py
 ```
 
 ### Generate Google API Credentials
